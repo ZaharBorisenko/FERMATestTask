@@ -1,0 +1,30 @@
+.icon-wrapper {
+  display: inline-block;
+}
+
+.icon-wrapper:first-child .icon {
+  color: #30324b;
+}
+
+.icon-wrapper:last-child .icon {
+  color: #ff2f2f;
+}
+
+.icon-wrapper:first-child:hover .icon {
+  color: #606492;
+}
+
+.icon-wrapper:last-child:hover .icon {
+  color: #ff9b9b;
+}
+
+.icon-wrapper:first-child:focus .icon {
+  color: #30324b;
+}
+
+.icon-wrapper:last-child:focus .icon {
+  color: #ff2f2f;
+}
+.icon-edit.active {
+  color: #0013ff; /* Цвет для активного состояния FiEdit */
+}
